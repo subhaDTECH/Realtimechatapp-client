@@ -1,0 +1,16 @@
+.sidebar__chat_option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.sidebar__chat__info{
+    flex: 1;
+    cursor: pointer;
+    
+}
+.Chat__avatar{
+    margin: 20px;
+
+}

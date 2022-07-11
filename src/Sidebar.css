@@ -1,0 +1,45 @@
+.sidebar{
+    flex: 0.35;
+    border-right: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+.avatarImg{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.header__search{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    background-color: #efefef;
+    border-radius: 999px;
+    margin: 20px;
+    border-bottom: 1px solid grey;
+
+}
+.Addchat{
+    padding: 10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.header__search > input{
+    flex: 1;
+    outline: none;
+    border: none;
+    background-color:transparent;
+}
+.header__add__section{
+    border-bottom: 1px solid grey;
+}
+.header___chat__box{
+    overflow: scroll;
+
+}
+.header___chat__box::-webkit-scrollbar{
+    display: none;
+}

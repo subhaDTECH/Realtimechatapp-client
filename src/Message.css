@@ -1,0 +1,40 @@
+.message{
+    width: fit-content;
+    margin-top: 30px;
+    border-radius: 10px;
+    
+}
+.message > p{
+    position: relative;
+    color: #fff;
+    width: fit-content;
+    background-color:green;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px;
+   
+   
+}
+.user_name{
+    position: absolute;
+    top: -20px;
+}
+.user_name{
+    color: #fff;
+}
+.timestamp{
+  font-size: small;
+  /* color: #fff; */
+ 
+  margin-left: 20px;
+  top: 10px;
+  margin-top: 10px;
+}
+.usermessage {
+    margin-left: auto;
+    color: blue;
+    
+}
+.usermessage .mess{
+    background-color: #0984e3;
+}
